@@ -1,0 +1,14 @@
+#content{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(165, 152, 152);
+}
+
+#view-content{
+    color:white;
+}
+
+a:hover{
+    color: white;
+
+}
