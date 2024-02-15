@@ -1,14 +1,39 @@
-#content{
+
+div > h1{
+    background-color:darkslategrey;
+    color:beige;
+}
+
+.interface{
+    display: flex;
+    justify-content: center;
+}
+
+.content{
     display: flex;
     justify-content: center;
     background-color: rgb(165, 152, 152);
+    width: 33.3333;
+}
+.content-view{
+
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 #view-content{
     color:white;
 }
 
-a:hover{
-    color: white;
+button{
+    background-color: yellowgreen;
+	color: white;
+	border-radius: 25px;
+}
+
+button:hover{
+    color: green;
 
 }
