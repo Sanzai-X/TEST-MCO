@@ -2,26 +2,40 @@
 <html>
     <head>
         <title>Register Account</title>
+        <link rel="stylesheet" type="text/css" media="all" href="style.css"/>
     </head>
 
-    <body>
-        <div>
-            <form name="registerForm">
-                <label id="userName">Enter Your Username: </label>
-                <input type="text" id="getuserName"><br />
-                <label id="password">Enter Your Password: </label>
-                <input type="text" id="getuserPassword"><br />
-                <label id="confirmpassword">Confirm Your Password: </label>
-                <input type="text" id="getconfirmPassword"><br />
-                <label id="userAvatar">Choose your Avatar: </label>
-                <button type="button" id="myButton">^</button><br />
-                <label id="userDesc">Short description: </label>
-                <input type="text" id="getuserDesc"><br /><br />
-                <button type="button" id="myButton">submit</button><br /><br />
+    <body class="login-body">
+        <div id = "header">
+			<div id = "logo">Review <span id = "box">Center</span></div>
+			<input type = "text" placeholder= "Search establishments" id = "searchbar">
+			<div id = "profile">
+				<img src = "https://thicc-af.mywaifulist.moe/waifus/tamamo-no-mae-fate-extra/GaSfBFYNRd0ufxe4AtrUQNlErICRLKKwlOjm1xop_thumbnail.jpg" id = "ppic">
+				User
+			</div>
+		</div>
+        <div class = "login-content">
+            <div class="login-container">
+                <div>
+                    <form name="registerForm">
+                        <label id="userName">Enter Your Username: </label>
+                        <input type="text" placeholder="Enter Username" id="getuserName" required/><br />
+                        <label id="password">Enter Your Password: </label>
+                        <input type="text" placeholder="Enter Password" id="getuserPassword" required/><br />
+                        <label id="confirmpassword">Confirm Your Password: </label>
+                        <input type="text" placeholder="Confirm Password" id="getconfirmPassword" required/><br />
+                        <label id="userAvatar">Choose your Avatar: </label>
+                        <button type="button" id="myButton">^</button><br />
+                        <label id="userDesc">Short description: </label>
+                        <input type="text" placeholder=" Enter Description (Optional)" id="getuserDesc" style="width: 60%;"><br /><br />
+                        <button type="button" id="myButton">submit</button><br /><br />
+        
+                    </form>
+                </div>
                 
-            </form>
-            <button type="button"><a href="login.html">Return to Login</a></button>
-            <button type="button"><a href="index.html">Return Home</a></button>
-        </div>
+                <button type="button"><a href="login.html">Return to Login</a></button>
+                <button type="button"><a href="index.html">Return Home</a></button>
+            </div>			
+		</div>      
     </body>
 </html>
