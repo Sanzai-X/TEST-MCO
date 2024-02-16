@@ -139,3 +139,7 @@ body {
 #searchbutton:hover {
 	filter: brightness(0);
 }
+
+#noa {
+	text-decoration: none;
+}
