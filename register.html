@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register Account</title>
+        <link rel="stylesheet" type="text/css" media="all" href="styles/style.css"/>
+        <link rel="stylesheet" type="text/css" media="all" href="styles/utility-style.css"/>
+    </head>
+
+    <body class="login-body">
+        <div id = "header">
+			<div id = "logo">Review <span id = "box">Center</span></div>
+			<input type = "text" placeholder= "Search establishments" id = "searchbar">
+			<div id = "profile">
+				<img src = "images/anon-pic.jpg" id = "ppic">
+				User
+                <div class = "dropdown">
+                    <button class = "dropbtn">V</button>
+                    <div class = "options">
+                        <a href = "#">Edit Profile</a>
+                        <a href = "#">Logout</a>
+                    </div>    
+                </div>
+			</div>
+		</div>
+        <div class = "login-content">
+            <div class="login-container">
+                <div>
+                    <form name="registerForm">
+                        <div class="padding-bottom">
+                            <label id="userName"><b>Enter Your Username:</b> </label>
+                            <input type="text" placeholder="Enter Username" id="getuserName" required/><br />
+                        </div>
+                        <div class="padding-bottom">
+                            <label id="password"><b>Enter Your Password:</b> </label>
+                            <input type="text" placeholder="Enter Password" id="getuserPassword" required/><br />
+                        </div>
+                        <div class="padding-bottom">
+                            <label id="confirmpassword"><b>Confirm Your Password:</b> </label>
+                            <input type="text" placeholder="Confirm Password" id="getconfirmPassword" required/><br />
+                        </div>
+                        <div class="padding-bottom">   
+                            <label id="userAvatar"><b>Choose your Avatar:</b></label>
+                            <button type="button" id="myButton">^</button><br />
+                        </div>
+                        <div class="padding-bottom">
+                            <label id="userDesc"><b>Short description: </b></label>
+                            <input type="text" placeholder=" Enter Description (Optional)" id="getuserDesc" style="width: 60%;"><br />
+                        </div>
+                        <button type="button" id="myButton">submit</button><br /><br />
+        
+                    </form>
+                </div>
+                
+                <a href="login.html"><button>Return to Login</button></a>
+                <a href="index.html"><button>Return Home</button></a>
+            </div>			
+		</div>      
+    </body>
+</html>

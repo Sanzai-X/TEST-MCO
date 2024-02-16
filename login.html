@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Account</title>
+        <link rel="stylesheet" type="text/css" media="all" href="styles/style.css"/>
+        <link rel="stylesheet" type="text/css" media="all" href="styles/utility-style.css"/>
+    </head>
+    <body class="login-body">
+        <div id = "header">
+			<div id = "logo">Review <span id = "box">Center</span></div>
+			<input type = "text" placeholder= "Search establishments" id = "searchbar">
+			<div id = "profile">
+				<img src = "images/anon-pic.jpg" id = "ppic">
+				User
+                <div class = "dropdown">
+                    <button class = "dropbtn">V</button>
+                    <div class = "options">
+                        <a href = "#">Edit Profile</a>
+                        <a href = "#">Logout</a>
+                    </div>    
+                </div>
+			</div>
+		</div>
+        <div class = "login-content">
+            <div class="login-container">
+                <div>
+                    <form name="loginForm">
+                        <div class="padding-bottom">
+                            <label id="userName"><b>Username:</b    > </label>
+                            <input type="text" placeholder="Enter Username" id="getuserName" required><br />
+                        </div>
+                        <div class="padding-bottom">
+                            <label id="password"><b>Password:</b> </label>
+                            <input type="text" placeholder="Enter Password" id="getpassword" required><br />
+                        </div>
+                        <button type="button" id="myButton">submit</button><br />
+                    </form>
+                </div>
+                <div>
+                    <p>
+                        Don't have an account? Create your own account or register an existing account here:
+                        <a href="register.html"><button>Register Account</button></a>
+                    </p>
+                </div>
+                <a href="index.html"><button>Return Home</button></a>
+            </div>
+		</div>		
+    </body>
+</html>
