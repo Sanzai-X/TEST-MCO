@@ -52,7 +52,7 @@
 	font-family: "Roboto", sans-serif;
 	font-weight: thin;
 	background-color: #89cbe6;
-	margin-right: 30%;
+	margin: 5px;
 	padding-left: 20px;
 }
 
@@ -125,3 +125,17 @@ body {
 .dropdown:hover .dropbtn {
 	background-color: #0070b9;
 	color: white;}
+
+#searchbutton {
+	height: 80%;
+	margin-top: 5px;
+}
+
+#search {
+	display: flex;
+	flex-direction: row;
+}
+
+#searchbutton:hover {
+	filter: brightness(0);
+}
