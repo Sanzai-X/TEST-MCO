@@ -143,3 +143,10 @@ body {
 #noa {
 	text-decoration: none;
 }
+
+.devresponse {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	width: 100%
+}
