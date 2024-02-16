@@ -208,7 +208,7 @@ html {
 	margin-bottom: -2px;
 }
 .rlike #likeimg:hover{
-	content: url('images/heart.png');
+	content: url("images/heart.png");
 }
 
 .rdislike{
@@ -226,7 +226,7 @@ html {
 }
 
 .rdislike #dislikeimg:hover{
-	content: url('images/disliked.png');
+	content: url("images/disliked.png");
 }
 
 .rhelpful #rhappy{
@@ -245,5 +245,5 @@ html {
 }
 
 .rhelpful #rhappy:hover{
-	content: url('images/happied.png');
+	content: url("images/happied.png");
 }
