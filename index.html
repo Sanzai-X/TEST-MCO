@@ -1,7 +1,8 @@
 <html>
 	<head>
 		<title></title>
-		<link rel = "stylesheet" href = "style.css">
+		<link rel = "stylesheet" href = "styles\index-style.css">
+		<link rel = "stylesheet" href = "styles\style.css">
 	</head>
 	<body>
 		<div class = "introduction">
@@ -101,10 +102,21 @@
 		</div>
 		<div id = "header">
 			<div id = "logo">Review <span id = "box">Center</span></div>
-			<input type = "text" placeholder= "Search establishments" id = "searchbar">
+			<div id = "search">
+				<input type = "text" placeholder= "Search establishments" id = "searchbar">
+				<img src = "images\magnifying-glass.png" id = "searchbutton"/>
+			</div>
 			<div id = "profile">
-				<img src = "https://as1.ftcdn.net/v2/jpg/05/16/27/58/1000_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg" id = "ppic"/>
+				<img src = "images\anon-pic.jpg" id = "ppic"/>
 				User
+
+				<div class = "dropdown">
+					<button class = "dropbtn">V</button>
+					<div class = "options">
+						<a href = "#">Edit Profile</a>
+						<a href = "#">Logout</a>
+					</div>	
+				</div>
 			</div>
 		</div>
 	</body>
