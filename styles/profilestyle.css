@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: 'Fredoka';
+    src: url('fonts/Fredoka/Fredoka-VariableFont_wdth,wght.ttf') format('truetype');
+}
+
+#header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	background-color: #0070b9;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	z-index: 1;
+	box-shadow: 0px 10px 10px dimgray;
+}
+
+#profile {
+	min-width: 200px;
+	height: 90%;
+	margin-top: 1px;
+	background-color: #89cbe6;
+	border-radius: 10px;
+	margin-right: 10px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	color: #393a3d;
+	font-family: "Roboto", sans-serif;
+}
+
+#logo {
+	min-width: 300px;
+	height: 80%;
+	margin-top: 5px;
+	border-radius: 10px;
+	margin-left: 10px;
+	font-size: 35px;
+	color: white;
+	font-family: "Roboto", sans-serif;
+	font-weight: thin;
+}
+
+#searchbar {
+	min-width: 400px;
+	height: 80%;
+	margin-top: 5px;
+	border-radius: 10px;
+	margin-left: 10px;
+	border: none;
+	font-size: 20px;
+	font-family: "Roboto", sans-serif;
+	font-weight: thin;
+	background-color: #89cbe6;
+	margin-right: 30%;
+	padding-left: 20px;
+}
+
+#ppic {
+	height: 40px;
+	width: 40px;
+	border-radius: 100%;
+	margin-left: 10px;
+	border: 1px solid white;
+	margin-right: 10px;
+}
+
+#box {
+	background-color: #ebedee;
+	color: #0070b9;
+}
+
+body {
+	background-image: linear-gradient(45deg, #89cbe6, #ebedee);
+	background-attachment: fixed;
+	overscroll-behavior-x: none;
+	overscroll-behavior-y: none;
+	/* overflow-y: hidden; */
+}
+
+body{
+	display:flex;
+	justify-content: center;
+}
+
+html {
+	height: 100%;
+}
+.main #vpusername{
+	font-family: 'Fredoka';
+	font-weight: lighter;
+	margin-bottom: 5px;
+}
+
+.main #vpfullname{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+	/* margin-top: 50px; */
+	min-height: 100vh;
+	width: 80%;
+	box-shadow: 1px 2px 2px 2px #666;
+}
+
+.main .pdescription{
+	border-top: 1px solid black;
+	padding-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-family: 'Fredoka';
+	display:flex;
+	justify-content: center;
+	width: 60%;
+}
+
+#bigppic{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid #000000;
+	box-shadow: 2px 2px 2px 2px #666;
+	border-radius: 100%;
+	height: 200px;
+	width:200px;
+	margin-top: 50px;
+}
+
+.pmain_content{
+	display: flex;
+}
+
+.main .reviews{
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	height: max-content;
+	/* overflow-y: auto; */
+}
+
+.main .rreview{
+	margin:20px;
+	position: relative;
+	background-color: 	#ebedee;
+	display: flex;
+	/* flex-direction: column; */
+	/* flex: 1; */
+	min-height: 0px;
+	flex-direction: column;
+	border:1px solid black;
+	height: 175px;
+	width: 90%;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px 2px #666;
+}
+
+.main h2{
+	font-family: 'Fredoka';
+	font-weight: normal;
+}
+.main .rreview h1{
+	font-family: 'Fredoka';
+	font-size: 20px;
+	margin-left: 10px;
+	margin-bottom: -5px;
+}
+
+.main .rreview p{
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: 'Fredoka';
+}
+
+.reviewicons{
+	position:absolute;
+	bottom: 3px;
+	left: 8px;
+	display: flex;
+	flex-direction: row;
+	/* border: 1px solid; */
+	/* margin-bottom: px;; */
+}
+
+.rlike{
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	height: 50px;
+	width: 80px;
+	/* border: 1px solid; */
+}
+
+.rlike #likeimg{
+	height: 40px;
+	width:40px;
+	margin-right: 1px;
+	margin-bottom: -2px;
+}
+.rlike #likeimg:hover{
+	content: url(images/heart.png);
+}
+
+.rdislike{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	/* border: 1px solid; */
+	height: 50px;
+}
+
+.rdislike #dislikeimg{
+	height: auto;
+	width: 60px;
+	margin-right: -14px;
+}
+
+.rdislike #dislikeimg:hover{
+	content: url(images/disliked.png);
+}
+
+.rhelpful #rhappy{
+	height: 40px;
+	width: 40px;
+	margin-right: 10px;
+}
+.rhelpful{
+	font-family: "Fredoka";
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	width: 145px;
+	/* border: 1px solid; */
+	height: 50px;
+}
+
+.rhelpful #rhappy:hover{
+	content: url(images/happied.png);
+}
