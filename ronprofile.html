@@ -1,0 +1,68 @@
+<html>
+	<head>
+		<title>Viewing Ron's profile</title>
+		<link rel = "stylesheet" href = "style.css">
+	</head>
+	<body>
+		<div class="main">
+            <img src = "images/ronpfp.jpg" id = "bigppic">
+            <h1 id="vpusername">Reythem</h1>
+            <h2 id="vpfullname">Ron Cajumban</h2>
+            <p class = "pdescription">
+                Gamers, it's me ya boi -- Ron. I have the gamer diet which means that I mostly eat outside and never cook home xD. I review food because I love expressing my thoughts.
+            </p>
+            <h2>Recent Reviews</h2>
+            <div class="reviews">
+                <div class="rreview">
+                    <h1>Gang Chicken</h1>
+                    <p>
+                        passed the gamer vibe check.
+                    </p>
+                    <div class="reviewicons">
+                        <div class="rlike">
+                            <img src="images/heartnobg.png" id="likeimg">
+                            <p>Like</p>
+                        </div>
+                        <div class="rhelpful">
+                            <img src="images/happy.png" id="rhappy">
+                            Found This Helpful
+                        </div>
+                    </div>                
+                </div>
+                <div class="rreview">
+                    <h1>24 Chicken</h1>
+                    <p>
+                        why 24 chicken not 24 hours :( jk. 24 chicken = quick yummy grab heh
+                    </p>
+                    <div class="reviewicons">
+                        <div class="rlike">
+                            <img src="images/heartnobg.png" id="likeimg">
+                            <p>Like</p>
+                        </div>
+                        <div class="rhelpful">
+                            <img src="images/happy.png" id="rhappy">
+                            Found This Helpful
+                        </div>
+                    </div>                
+                </div>
+            </div>
+                    
+        </div>
+		</div>
+       
+		<div id = "header">
+			<div id = "logo">Review <span id = "box">Center</span></div>
+			<input type = "text" placeholder= "Search establishments" id = "searchbar">
+			<div id = "profile">
+				<img src = "https://thicc-af.mywaifulist.moe/waifus/tamamo-no-mae-fate-extra/GaSfBFYNRd0ufxe4AtrUQNlErICRLKKwlOjm1xop_thumbnail.jpg" id = "ppic">
+				User
+			</div>
+		</div>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                var reviewsContainer = document.querySelector(".main");
+                reviewsContainer.style.height = reviewsContainer.scrollHeight + "px";
+            });
+        </script>
+	</body>
+</html>

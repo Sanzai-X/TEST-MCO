@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<title>Viewing Pablo's Profile</title>
+		<link rel = "stylesheet" href = "style.css">
+	</head>
+	<body>
+		<div class="main">
+            <img src = "images/pablopfp.jpg" id = "bigppic">
+            <h1 id="vpusername">Shinzai-X</h1>
+            <h2 id="vpfullname">Pablo Lucas</h2>
+            <p class = "pdescription">
+                Yes. My name is Pablo. I'm not Mexican. Thanks for asking.
+            </p>
+            <h2>Recent Reviews</h2>
+            <div class="reviews">
+                <div class="rreview">
+                    <h1>24 Chicken</h1>
+                    <p>
+                        Every Lasallian's quick grab after class. 24 chicken is fast, cheap, and delicious. 10/10 kimchi
+                    </p>
+                    <div class="reviewicons">
+                        <div class="rlike">
+                            <img src="images/heartnobg.png" id="likeimg">
+                            <p>Like</p>
+                        </div>
+                        <div class="rhelpful">
+                            <img src="images/happy.png" id="rhappy">
+                            Found This Helpful
+                        </div>
+                    </div>                
+                </div>
+            </div>
+                    
+        </div>
+		</div>
+       
+		<div id = "header">
+			<div id = "logo">Review <span id = "box">Center</span></div>
+			<input type = "text" placeholder= "Search establishments" id = "searchbar">
+			<div id = "profile">
+				<img src = "https://thicc-af.mywaifulist.moe/waifus/tamamo-no-mae-fate-extra/GaSfBFYNRd0ufxe4AtrUQNlErICRLKKwlOjm1xop_thumbnail.jpg" id = "ppic">
+				User
+			</div>
+		</div>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                var reviewsContainer = document.querySelector(".main");
+                reviewsContainer.style.height = reviewsContainer.scrollHeight + "px";
+            });
+        </script>
+	</body>
+</html>

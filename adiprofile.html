@@ -1,0 +1,86 @@
+<html>
+	<head>
+		<title>Viewing Adi's Profile</title>
+		<link rel = "stylesheet" href = "style.css">
+	</head>
+	<body>
+		<div class="main">
+            <img src = "images/Adipfp.png" id = "bigppic">
+            <h1 id="vpusername">xX_Assfart69_Xx</h1>
+            <h2 id="vpfullname">Adi Miranda</h2>
+            <p class = "pdescription">
+                Hi, My real name is Adi. I love food as much as everyone.
+                I take my time to review food that I love!
+                I'm not a professional chef so take my recommendation with a grain of salt.
+            </p>
+            <h2>Recent Reviews</h2>
+            <div class="reviews">
+                <div class="rreview">
+                    <h1>BOK Chicken</h1>
+                    <p>
+                        Bok chicken has many flavors. However, they have a signature flavor that's different from the stereotypical Korean Chicken -- Kimchi.
+                    </p>
+                    <div class="reviewicons">
+                        <div class="rlike">
+                            <img src="images/heartnobg.png" id="likeimg">
+                            <p>Like</p>
+                        </div>
+                        <div class="rhelpful">
+                            <img src="images/happy.png" id="rhappy">
+                            Found This Helpful
+                        </div>
+                    </div>
+                </div>
+                <div class="rreview">
+                    <h1>Gang Chicken</h1>
+                    <p>
+                        Gang chicken has quantiy over quality.
+                    </p>
+                    <div class="reviewicons">
+                        <div class="rlike">
+                            <img src="images/heartnobg.png" id="likeimg">
+                            <p>Like</p>
+                        </div>
+                        <div class="rhelpful">
+                            <img src="images/happy.png" id="rhappy">
+                            Found This Helpful
+                        </div>
+                    </div>                
+                </div>
+                <div class="rreview">
+                    <h1>24 Chicken</h1>
+                    <p>
+                        Every Lasallian's quick grab after class. 24 chicken is fast, cheap, and delicious. 10/10 kimchi
+                    </p>
+                    <div class="reviewicons">
+                        <div class="rlike">
+                            <img src="images/heartnobg.png" id="likeimg">
+                            <p>Like</p>
+                        </div>
+                        <div class="rhelpful">
+                            <img src="images/happy.png" id="rhappy">
+                            Found This Helpful
+                        </div>
+                    </div>                
+                </div>
+            </div>
+                    
+        </div>
+		</div>
+       
+		<div id = "header">
+			<div id = "logo">Review <span id = "box">Center</span></div>
+			<input type = "text" placeholder= "Search establishments" id = "searchbar">
+			<div id = "profile">
+				<img src = "https://thicc-af.mywaifulist.moe/waifus/tamamo-no-mae-fate-extra/GaSfBFYNRd0ufxe4AtrUQNlErICRLKKwlOjm1xop_thumbnail.jpg" id = "ppic">
+				User
+			</div>
+		</div>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                var reviewsContainer = document.querySelector(".main");
+                reviewsContainer.style.height = reviewsContainer.scrollHeight + "px";
+            });
+        </script>
+	</body>
+</html>
